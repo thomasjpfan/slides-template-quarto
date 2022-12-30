@@ -12,12 +12,12 @@ jobs:
       contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: 1.2.280
+      - name: Install Quarto
+        run: |
+          wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.2.280/quarto-1.2.280-linux-amd64.deb
+          sudo apt-get install -y ./quarto-1.2.280-linux-amd64.deb
 
       - name: Render Quarto Project
         run: quarto render
