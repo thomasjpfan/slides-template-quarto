@@ -1,1 +1,0 @@
-Sitemap: https://thomasjpfan.github.io/slides-template-quarto/sitemap.xml
