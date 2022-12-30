@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html#this-is-a-list",
+    "href": "index.html#this-is-a-list",
+    "title": "",
+    "section": "This is a list",
+    "text": "This is a list\n\nTurn off alarm\nGet out of bed\nThis is a link\n\ne = mc2"
+  },
+  {
+    "objectID": "index.html#this-is-an-image",
+    "href": "index.html#this-is-an-image",
+    "title": "",
+    "section": "This is an image",
+    "text": "This is an image"
+  },
+  {
+    "objectID": "index.html#this-is-some-code",
+    "href": "index.html#this-is-some-code",
+    "title": "",
+    "section": "This is some code",
+    "text": "This is some code\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "index.html#multiple-columns",
+    "href": "index.html#multiple-columns",
+    "title": "",
+    "section": "Multiple Columns",
+    "text": "Multiple Columns\n\n\nThis is a title\n\nHere is an item\n\n\nAnother title\n\nAnother item"
+  },
+  {
+    "objectID": "index.html#here-is-a-table",
+    "href": "index.html#here-is-a-table",
+    "title": "",
+    "section": "Here is a table",
+    "text": "Here is a table\n\n\n\n\n\n\n\n\n\n\ntrain has infreq\nerror\nignore\ninfreq_ignore\n\n\n\n\n\nTrue\nerrors\nall zeros (werid)\nplace in infreq bin\n\n\n\nFalse\nerrors\nall zeros\nall zeros"
+  },
+  {
+    "objectID": "index.html#this-is-a-subsection-in-the-other-level",
+    "href": "index.html#this-is-a-subsection-in-the-other-level",
+    "title": "",
+    "section": "This is a subsection in the other level",
+    "text": "This is a subsection in the other level\n\nItem 1\n\n\n\nItem 2"
+  }
+]
