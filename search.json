@@ -14,6 +14,20 @@
     "text": "This is an image"
   },
   {
+    "objectID": "index.html#this-is-an-image-and-centered",
+    "href": "index.html#this-is-an-image-and-centered",
+    "title": "",
+    "section": "This is an image and centered",
+    "text": "This is an image and centered"
+  },
+  {
+    "objectID": "index.html#this-is-the-same-images-stacked",
+    "href": "index.html#this-is-the-same-images-stacked",
+    "title": "",
+    "section": "This is the same images stacked",
+    "text": "This is the same images stacked"
+  },
+  {
     "objectID": "index.html#this-is-some-code",
     "href": "index.html#this-is-some-code",
     "title": "",
@@ -25,20 +39,48 @@
     "href": "index.html#multiple-columns",
     "title": "",
     "section": "Multiple Columns",
-    "text": "Multiple Columns\n\n\nThis is a title\n\nHere is an item\n\n\nAnother title\n\nAnother item"
-  },
-  {
-    "objectID": "index.html#here-is-a-table",
-    "href": "index.html#here-is-a-table",
-    "title": "",
-    "section": "Here is a table",
-    "text": "Here is a table\n\n\n\n\n\n\n\n\n\n\ntrain has infreq\nerror\nignore\ninfreq_ignore\n\n\n\n\n\nTrue\nerrors\nall zeros (werid)\nplace in infreq bin\n\n\n\nFalse\nerrors\nall zeros\nall zeros"
+    "text": "Multiple Columns\n\n\nMultiprocessing\n\nLikely need to think about memory\n\n\nMultithreading\n\nNeed to think about the Global Interpreter Lock (GIL)"
   },
   {
     "objectID": "index.html#this-is-a-subsection-in-the-other-level",
     "href": "index.html#this-is-a-subsection-in-the-other-level",
     "title": "",
     "section": "This is a subsection in the other level",
-    "text": "This is a subsection in the other level\n\nItem 1\n\n\n\nItem 2"
+    "text": "This is a subsection in the other level\nThere will be a table here\n\n\n\n\n\n\n\n\n\n\n\ntrain has infreq\nerror\nignore\ninfreq_ignore\n\n\n\n\n\nTrue\nerrors\nall zeros (werid)\nplace in infreq bin\n\n\n\nFalse\nerrors\nall zeros\nall zeros"
+  },
+  {
+    "objectID": "index.html#incredimental-lists",
+    "href": "index.html#incredimental-lists",
+    "title": "",
+    "section": "Incredimental Lists",
+    "text": "Incredimental Lists\n\n\nFirst Item\nSecond Item"
+  },
+  {
+    "objectID": "index.html#fragments",
+    "href": "index.html#fragments",
+    "title": "",
+    "section": "Fragments",
+    "text": "Fragments\n\nFade in\n\n\nFade out\n\n\nHighlight red\n\n\nFade in, then out"
+  },
+  {
+    "objectID": "index.html#fragments-span",
+    "href": "index.html#fragments-span",
+    "title": "",
+    "section": "Fragments span",
+    "text": "Fragments span\nThis is an important sentence!\n…\nMind the gap when riding the train!"
+  },
+  {
+    "objectID": "index.html#fragments-ordering",
+    "href": "index.html#fragments-ordering",
+    "title": "",
+    "section": "Fragments ordering",
+    "text": "Fragments ordering\n\nAppears last\n\n\nAppears first\n\n\nAppears second"
+  },
+  {
+    "objectID": "index.html#fragments-columns",
+    "href": "index.html#fragments-columns",
+    "title": "",
+    "section": "Fragments + Columns",
+    "text": "Fragments + Columns\n\n\nThis is a title\n\nHere is an item\n\n\n\nAnother title\n\nAnother item"
   }
 ]

@@ -424,18 +424,19 @@ Thomas J. Fan
 <a href="https://www.github.com/thomasjpfan" class="talk-link">github.com/thomasjpfan/slides-template-quarto</a>
 </p>
 </section>
+<p><img data-src="images/favicon_org.png" class="absolute" style="bottom: 200px; right: 0px; width: 300px; "></p>
 </section>
 <section>
 <section id="in-the-morning" class="title-slide slide level1 center">
-<h1>In the morning</h1>
+<h1>In the morning ☀️</h1>
 
 </section>
 <section id="this-is-a-list" class="slide level2 center">
 <h2>This is a list</h2>
 <ul>
-<li><p>Turn off alarm</p></li>
-<li><p>Get out of bed</p></li>
-<li><p><a href="https://github.com">This is a link</a></p></li>
+<li>Turn off alarm</li>
+<li>Get out of bed</li>
+<li><a href="https://github.com">This is a link</a></li>
 </ul>
 <p><span class="math display"><em>e</em> = <em>m</em><em>c</em><sup>2</sup></span></p>
 </section>
@@ -443,6 +444,21 @@ Thomas J. Fan
 <h2>This is an image</h2>
 
 <img data-src="images/favicon_org.png" class="r-stretch"></section>
+<section id="this-is-an-image-and-centered" class="slide level2 center">
+<h2>This is an image and centered</h2>
+
+<img data-src="images/favicon_org.png" class="r-stretch quarto-figure-center"></section>
+<section id="this-is-the-same-images-stacked" class="slide level2 center">
+<h2>This is the same images stacked</h2>
+<div class="r-stack">
+<p><img data-src="images/favicon_org.png" class="fragment" width="450"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/favicon_org.png" class="fragment" width="100"></p>
+</figure>
+</div>
+</div>
+</section>
 <section id="this-is-some-code" class="slide level2 center">
 <h2>This is some code</h2>
 <div class="sourceCode" id="cb1" data-code-line-numbers="|6|9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -460,20 +476,27 @@ Thomas J. Fan
 <h2>Multiple Columns</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="this-is-a-title">This is a title</h3>
+<h3 id="multiprocessing">Multiprocessing</h3>
 <ul>
-<li>Here is an item</li>
+<li>Likely need to think about memory</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<h3 id="another-title">Another title</h3>
+<h3 id="multithreading">Multithreading</h3>
 <ul>
-<li>Another item</li>
+<li>Need to think about the Global Interpreter Lock (<strong>GIL</strong>)</li>
 </ul>
 </div>
 </div>
+</section></section>
+<section>
+<section id="this-is-another-high-level" class="title-slide slide level1 center">
+<h1>This is another high level</h1>
+
 </section>
-<section id="here-is-a-table" class="slide level2 center">
-<h2>Here is a table</h2>
+<section id="this-is-a-subsection-in-the-other-level" class="slide level2 center">
+<h2>This is a subsection in the other level</h2>
+<h3 id="there-will-be-a-table-here">There will be a table here</h3>
+<div class="fragment">
 <table>
 <colgroup>
 <col style="width: 26%">
@@ -508,25 +531,69 @@ Thomas J. Fan
 </tr>
 </tbody>
 </table>
-</section></section>
-<section>
-<section id="this-is-another-high-level" class="title-slide slide level1 center">
-<h1>This is another high level</h1>
-
+</div>
 </section>
-<section id="this-is-a-subsection-in-the-other-level" class="slide level2 center">
-<h2>This is a subsection in the other level</h2>
+<section id="incredimental-lists" class="slide level2 center">
+<h2>Incredimental Lists</h2>
+<div>
 <ul>
-<li>Item 1</li>
+<li class="fragment">First Item</li>
+<li class="fragment">Second Item</li>
 </ul>
+</div>
+</section>
+<section id="fragments" class="slide level2 center">
+<h2>Fragments</h2>
 <div class="fragment">
+<p>Fade in</p>
+</div>
+<div class="fragment fade-out">
+<p>Fade out</p>
+</div>
+<div class="fragment highlight-green">
+<p>Highlight red</p>
+</div>
+<div class="fragment fade-in-then-out">
+<p>Fade in, then out</p>
+</div>
+</section>
+<section id="fragments-span" class="slide level2 center">
+<h2>Fragments span</h2>
+<p>This is an <span class="fragment highlight-red">important sentence!</span></p>
+<p>…</p>
+<p>Mind the <span class="fragment fade-in">gap</span> when riding the train!</p>
+</section>
+<section id="fragments-ordering" class="slide level2 center">
+<h2>Fragments ordering</h2>
+<div class="fragment" data-fragment-index="3">
+<p>Appears last</p>
+</div>
+<div class="fragment" data-fragment-index="1">
+<p>Appears first</p>
+</div>
+<div class="fragment" data-fragment-index="2">
+<p>Appears second</p>
+</div>
+</section>
+<section id="fragments-columns" class="slide level2 center">
+<h2>Fragments + Columns</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="this-is-a-title">This is a title</h3>
 <ul>
-<li>Item 2</li>
+<li>Here is an item</li>
 </ul>
+</div><div class="column fragment" style="width:50%;">
+<!-- -->
+<h3 id="another-title">Another title</h3>
+<ul>
+<li>Another item</li>
+</ul>
+</div>
+</div>
 
 <div class="footer footer-default">
 
-</div>
 </div>
 </section></section>
     </div>
@@ -705,9 +772,9 @@ Thomas J. Fan
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1280,
+        width: 1600,
 
-        height: 720,
+        height: 900,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
