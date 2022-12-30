@@ -1,0 +1,19 @@
+project:
+  type: website
+  render:
+    - index.qmd
+
+website:
+  favicon: images/favicon.ico
+  site-url: https://thomasjpfan.github.io/slides-template-quarto/
+  search: false
+  twitter-card:
+    creator: "@thomasjpfan"
+    card-style: summary
+    image: images/favicon_org.png
+  open-graph:
+    image: images/favicon_org.png
+
+format:
+  html:
+    theme: cosmo

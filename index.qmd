@@ -1,0 +1,95 @@
+---
+title: "My Awesome Presentation"
+author: "Thomas J. Fan"
+description: This is a short description of the presentation
+format:
+  revealjs:
+    theme: [default, partials/custom_theme.scss]
+    include-in-header: partials/heading-meta.html
+    template-partials:
+      - partials/title-slide.html  # this is empty so that the header slide is defined below
+    show-slide-number: print
+    html-math-method: plain  # change to katex if there is math
+    width: 1280
+    height: 720
+    menu: false
+    chalkboard: false
+    multiplex: false
+    center: true
+    highlight-style: arrow
+---
+
+<section class="header-slide">
+<h2 class="title">My Awesome Presentation with a long title and a line skip</h1>
+<hr></hr>
+<p class="author">Thomas J. Fan</p>
+<p><a href="https://www.github.com/thomasjpfan" class="icon"><i class="fa-brands fa-github" aria-label="github" target="_blank" rel="noopener"></i></a> <a href="https://www.&#64;twitter.com/thomasjpfan" class="icon"><i class="fa-brands fa-twitter" aria-label="twitter" target="_blank" rel="noopener"></i> </a> <a href="https://www.github.com/thomasjpfan" class="social-media" target="_blank" rel="noopener"> &#64;thomasjpfan</a></p>
+<p><a href="https://fosstodon.org/@thomasjpfan" class="icon"><i class="fa-brands fa-mastodon" aria-label="mastodon" target="_blank" rel="noopener"></i> &#64;thomasjpfan&#64;fosstodon.org</a></p>
+<p><a href="https://www.github.com/thomasjpfan" class="talk-link">github.com/thomasjpfan/slides-template-quarto</a></p>
+</section>
+
+# In the morning
+
+## This is a list
+
+- Turn off alarm
+
+- Get out of bed
+- [This is a link](https://github.com)
+
+$$
+e=mc^2
+$$
+
+## This is an image
+
+![](images/favicon_org.png)
+
+## This is some code
+
+```{.python code-line-numbers="|6|9"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## Multiple Columns
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### This is a title
+- Here is an item
+:::
+
+::: {.column width="50%"}
+
+### Another title
+- Another item
+:::
+
+::::
+
+## Here is a table
+
+| train has infreq | error  | ignore            | infreq_ignore       |   |
+|------------------|--------|-------------------|---------------------|---|
+| True             | errors | all zeros (werid) | place in infreq bin |   |
+| False            | errors | all zeros         | all zeros           |   |
+
+# This is another high level
+
+
+## This is a subsection in the other level
+- Item 1
+
+. . .
+
+- Item 2
