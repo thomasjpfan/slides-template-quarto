@@ -10,8 +10,8 @@ format:
       - partials/title-slide.html  # this is empty so that the header slide is defined below
     show-slide-number: print
     html-math-method: plain  # change to katex if there is math
-    width: 1280
-    height: 720
+    width: 1600
+    height: 900
     menu: false
     chalkboard: false
     multiplex: false
@@ -21,19 +21,20 @@ format:
 
 <section class="header-slide">
 <h2 class="title">My Awesome Presentation with a long title and a line skip</h1>
+
 <hr></hr>
 <p class="author">Thomas J. Fan</p>
 <p><a href="https://www.github.com/thomasjpfan" class="icon"><i class="fa-brands fa-github" aria-label="github" target="_blank" rel="noopener"></i></a> <a href="https://www.&#64;twitter.com/thomasjpfan" class="icon"><i class="fa-brands fa-twitter" aria-label="twitter" target="_blank" rel="noopener"></i> </a> <a href="https://www.github.com/thomasjpfan" class="social-media" target="_blank" rel="noopener"> &#64;thomasjpfan</a></p>
 <p><a href="https://fosstodon.org/@thomasjpfan" class="icon"><i class="fa-brands fa-mastodon" aria-label="mastodon" target="_blank" rel="noopener"></i> &#64;thomasjpfan&#64;fosstodon.org</a></p>
 <p><a href="https://www.github.com/thomasjpfan" class="talk-link">github.com/thomasjpfan/slides-template-quarto</a></p>
 </section>
+![](images/favicon_org.png){.absolute bottom=200 right=0 width="300"}
 
-# In the morning
+# In the morning ☀️
 
 ## This is a list
 
 - Turn off alarm
-
 - Get out of bed
 - [This is a link](https://github.com)
 
@@ -44,6 +45,18 @@ $$
 ## This is an image
 
 ![](images/favicon_org.png)
+
+## This is an image and centered
+
+![](images/favicon_org.png){fig-align="center"}
+
+## This is the same images stacked
+
+::: {.r-stack}
+![](images/favicon_org.png){.fragment width="450"}
+
+![](images/favicon_org.png){.fragment width="100" fig-aligned="center"}
+:::
 
 ## This is some code
 
@@ -65,31 +78,93 @@ plt.show()
 :::: {.columns}
 
 ::: {.column width="50%"}
-### This is a title
-- Here is an item
+### Multiprocessing
+- Likely need to think about memory
 :::
 
 ::: {.column width="50%"}
 
-### Another title
-- Another item
+### Multithreading
+- Need to think about the Global Interpreter Lock (**GIL**)
 :::
 
 ::::
 
-## Here is a table
+# This is another high level
+
+## This is a subsection in the other level
+### There will be a table here
+
+. . .
 
 | train has infreq | error  | ignore            | infreq_ignore       |   |
 |------------------|--------|-------------------|---------------------|---|
 | True             | errors | all zeros (werid) | place in infreq bin |   |
 | False            | errors | all zeros         | all zeros           |   |
 
-# This is another high level
+
+## Incredimental Lists
+
+::: {.incremental}
+- First Item
+- Second Item
+:::
+
+## Fragments
+
+::: {.fragment}
+Fade in
+:::
+
+::: {.fragment .fade-out}
+Fade out
+:::
+
+::: {.fragment .highlight-green}
+Highlight red
+:::
+
+::: {.fragment .fade-in-then-out}
+Fade in, then out
+:::
+
+## Fragments span
+
+This is an [important sentence!]{.fragment .highlight-red}
+
+...
+
+Mind the [gap]{.fragment .fade-in} when riding the train!
+
+## Fragments ordering
+
+::: {.fragment fragment-index=3}
+Appears last
+:::
+
+::: {.fragment fragment-index=1}
+Appears first
+:::
+
+::: {.fragment fragment-index=2}
+Appears second
+:::
 
 
-## This is a subsection in the other level
-- Item 1
+## Fragments + Columns
 
-. . .
+::::: {.columns}
 
-- Item 2
+:::: {.column width="50%"}
+### This is a title
+- Here is an item
+::::
+
+:::: {.column width="50%" .fragment}
+
+### Another title
+- Another item
+
+::::
+
+:::::
