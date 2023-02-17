@@ -15,15 +15,9 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install Quarto
-        run: |
-          wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.2.280/quarto-1.2.280-linux-amd64.deb
-          sudo apt-get install -y ./quarto-1.2.280-linux-amd64.deb
+        uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render Quarto Project
-        run: quarto render
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Publish to GitHub Pages (and render)
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          target: gh-pages
