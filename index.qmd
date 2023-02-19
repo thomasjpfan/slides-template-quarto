@@ -20,7 +20,7 @@ format:
 ---
 
 <section class="header-slide">
-<h2 class="title">My Awesome Presentation with a long title and a line skip</h1>
+<h2 class="title">My Awesome Presentation with a long title and a line skip</h2>
 
 <hr></hr>
 <p class="author">Thomas J. Fan</p>
