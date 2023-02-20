@@ -19,16 +19,22 @@ format:
     highlight-style: arrow
 ---
 
-<section class="header-slide">
-<h2 class="title">My Awesome Presentation with a long title and a line skip</h2>
-
+## My Awesome Presentation with a long title and a line skip {.header-slide}
 <hr></hr>
-<p class="author">Thomas J. Fan</p>
-<p><a href="https://www.github.com/thomasjpfan" class="icon"><i class="fa-brands fa-github" aria-label="github" target="_blank" rel="noopener"></i></a> <a href="https://www.&#64;twitter.com/thomasjpfan" class="icon"><i class="fa-brands fa-twitter" aria-label="twitter" target="_blank" rel="noopener"></i> </a> <a href="https://www.github.com/thomasjpfan" class="social-media" target="_blank" rel="noopener"> &#64;thomasjpfan</a></p>
-<p><a href="https://fosstodon.org/@thomasjpfan" class="icon"><i class="fa-brands fa-mastodon" aria-label="mastodon" target="_blank" rel="noopener"></i> &#64;thomasjpfan&#64;fosstodon.org</a></p>
-<p><a href="https://www.github.com/thomasjpfan/slides-template-quarto" class="talk-link">github.com/thomasjpfan/slides-template-quarto</a></p>
+::: {.author}
+Thomas J. Fan
+:::
+
+[](https://www.github.com/thomasjpfan){.fa-brands .fa-github}
+[](https://www.twitter.com/thomasjpfan){.fa-brands .fa-twitter}
+[](https://www.linkedin.com/in/thomasjpfan/){.fa-brands .fa-linkedin}
+[@thomasjpfan](https://www.github.com/thomasjpfan){.social-media}
+
+[](https://fosstodon.org/@thomasjpfan){.fa-brands .fa-mastodon}
+[@thomasjpfan@fosstodon.org](https://fosstodon.org/@thomasjpfan){.social-media}
+
+[github.com/thomasjpfan/slides-template-quarto](https://www.github.com/thomasjpfan/slides-template-quarto){.talk-link}
 ![](images/favicon_org.png){.absolute right=0 width=300 top=110}
-</section>
 
 # In the morning ☀️
 
