@@ -21,10 +21,12 @@ format:
 
 ## My Awesome Presentation with a long title and a line skip {.header-slide}
 <hr></hr>
+
+::::: {.columns}
+:::: {.column width="80%"}
 ::: {.author}
 Thomas J. Fan
 :::
-
 [](https://www.github.com/thomasjpfan){.fa-brands .fa-github}
 [](https://www.twitter.com/thomasjpfan){.fa-brands .fa-twitter}
 [](https://www.linkedin.com/in/thomasjpfan/){.fa-brands .fa-linkedin}
@@ -34,7 +36,11 @@ Thomas J. Fan
 [@thomasjpfan@fosstodon.org](https://fosstodon.org/@thomasjpfan){.social-media}
 
 [github.com/thomasjpfan/slides-template-quarto](https://www.github.com/thomasjpfan/slides-template-quarto){.talk-link}
-![](images/favicon_org.png){.absolute right=0 width=300 top=110}
+::::
+:::: {.column width="20%"}
+![](images/favicon_org.png){width=300}
+::::
+:::::
 
 # In the morning ☀️
 
