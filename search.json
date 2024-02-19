@@ -53,7 +53,7 @@
     "href": "index.html#this-is-a-subsection-in-the-other-level",
     "title": "",
     "section": "This is a subsection in the other level",
-    "text": "This is a subsection in the other level\nThere will be a table here\n\n\n\n\n\n\n\n\n\n\n\ntrain has infreq\nerror\nignore\ninfreq_ignore\n\n\n\n\n\nTrue\nerrors\nall zeros (werid)\nplace in infreq bin\n\n\n\nFalse\nerrors\nall zeros\nall zeros"
+    "text": "This is a subsection in the other level\nThere will be a table here\n. . .\n\n\n\n\n\n\n\n\n\n\ntrain has infreq\nerror\nignore\ninfreq_ignore\n\n\n\n\n\nTrue\nerrors\nall zeros (werid)\nplace in infreq bin\n\n\n\nFalse\nerrors\nall zeros\nall zeros"
   },
   {
     "objectID": "index.html#incredimental-lists",
