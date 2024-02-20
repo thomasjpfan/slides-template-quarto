@@ -408,19 +408,20 @@
 
 <section id="my-awesome-presentation-with-a-long-title-and-a-line-skip" class="slide level2 header-slide center">
 <h2>My Awesome Presentation with a long title and a line skip</h2>
-<hr>
-
-<div class="columns">
-<div class="column" style="width:80%;">
+<div class="columns text-align-center">
+<div class="column">
+<p><img data-src="images/favicon_org.png" style="width:50.0%"></p>
+</div><div class="column">
+<p><img data-src="images/favicon_org.png" style="width:50.0%"></p>
+</div>
+</div>
+<div class="text-align-center social-media">
 <div class="author">
 <p>Thomas J. Fan</p>
 </div>
-<p><a href="https://www.github.com/thomasjpfan" class="fa-brands fa-github"></a> <a href="https://www.twitter.com/thomasjpfan" class="fa-brands fa-twitter"></a> <a href="https://www.linkedin.com/in/thomasjpfan/" class="fa-brands fa-linkedin"></a> <a href="https://www.github.com/thomasjpfan" class="social-media"><span class="citation" data-cites="thomasjpfan">@thomasjpfan</span></a></p>
-<p><a href="https://fosstodon.org/@thomasjpfan" class="fa-brands fa-mastodon"></a> <a href="https://fosstodon.org/@thomasjpfan" class="social-media"><span class="citation" data-cites="thomasjpfan">@thomasjpfan</span><span class="citation" data-cites="fosstodon.org">@fosstodon.org</span></a></p>
+<p><a href="https://www.github.com/thomasjpfan" class="author-link"><span class="citation" data-cites="thomasjpfan">@thomasjpfan</span></a></p>
+<p><a href="https://www.github.com/thomasjpfan" class="fa-brands fa-github"></a> <a href="https://www.twitter.com/thomasjpfan" class="fa-brands fa-twitter"></a> <a href="https://www.linkedin.com/in/thomasjpfan/" class="fa-brands fa-linkedin"></a></p>
 <p><a href="https://www.github.com/thomasjpfan/slides-template-quarto" class="talk-link">github.com/thomasjpfan/slides-template-quarto</a></p>
-</div><div class="column" style="width:20%;">
-<p><img data-src="images/favicon_org.png" width="300"></p>
-</div>
 </div>
 </section>
 <section>
@@ -439,12 +440,16 @@
 </section>
 <section id="this-is-an-image" class="slide level2 center">
 <h2>This is an image</h2>
-
-<img data-src="images/favicon_org.png" class="r-stretch"></section>
+<p><img data-src="images/favicon_org.png"></p>
+</section>
 <section id="this-is-an-image-and-centered" class="slide level2 center">
 <h2>This is an image and centered</h2>
-
-<img data-src="images/favicon_org.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/favicon_org.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</section>
 <section id="this-is-the-same-images-stacked" class="slide level2 center">
 <h2>This is the same images stacked</h2>
 <div class="r-stack">
@@ -467,18 +472,24 @@
 </section>
 <section id="multiple-columns" class="slide level2 center">
 <h2>Multiple Columns</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="multiprocessing">Multiprocessing</h3>
+<div class="g">
+<section id="multiprocessing" class="g-6">
+<h3>Multiprocessing</h3>
 <ul>
 <li>Likely need to think about memory</li>
+<li>Likely need to think about memory</li>
+<li>Likely need to think about memory</li>
+<li>Likely need to think about memory</li>
+<li>Likely need to think about memory</li>
+<li>Likely need to think about memory</li>
 </ul>
-</div><div class="column" style="width:50%;">
-<h3 id="multithreading">Multithreading</h3>
+</section>
+<section id="multithreading" class="g-6">
+<h3>Multithreading</h3>
 <ul>
 <li>Need to think about the Global Interpreter Lock (<strong>GIL</strong>)</li>
 </ul>
-</div>
+</section>
 </div>
 </section></section>
 <section>
@@ -567,17 +578,39 @@
 <p>Appears second</p>
 </div>
 </section>
-<section id="fragments-columns" class="slide level2 center">
-<h2>Fragments + Columns</h2>
+<section id="columns" class="slide level2 center">
+<h2>Columns</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column">
 <h3 id="this-is-a-title">This is a title</h3>
 <ul>
 <li>Here is an item</li>
 </ul>
-</div><div class="column fragment" style="width:50%;">
-<!-- -->
+</div><div class="column">
 <h3 id="another-title">Another title</h3>
+<ul>
+<li>Another item</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="columns-long" class="slide level2 center">
+<h2>Columns Long</h2>
+<div class="columns">
+<div class="column">
+<h3 id="this-is-a-title-1">This is a title</h3>
+<ul>
+<li>Here is an item</li>
+<li>Here is an item</li>
+<li>Here is an item</li>
+<li>Here is an item</li>
+<li>Here is an item</li>
+<li>Here is an item</li>
+<li>Here is an item</li>
+<li>Here is an item</li>
+</ul>
+</div><div class="column">
+<h3 id="another-title-1">Another title</h3>
 <ul>
 <li>Another item</li>
 </ul>
@@ -765,9 +798,9 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1600,
+        width: 1920,
 
-        height: 900,
+        height: 1080,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,

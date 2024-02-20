@@ -4,7 +4,7 @@
     "href": "index.html#my-awesome-presentation-with-a-long-title-and-a-line-skip",
     "title": "",
     "section": "My Awesome Presentation with a long title and a line skip",
-    "text": "My Awesome Presentation with a long title and a line skip\n\n\n\n\n\nThomas J. Fan\n\n   @thomasjpfan\n @thomasjpfan@fosstodon.org\ngithub.com/thomasjpfan/slides-template-quarto"
+    "text": "My Awesome Presentation with a long title and a line skip\n\n\n\n\n\n\n\n\n\nThomas J. Fan\n\n@thomasjpfan\n  \ngithub.com/thomasjpfan/slides-template-quarto"
   },
   {
     "objectID": "index.html#this-is-a-list",
@@ -46,7 +46,7 @@
     "href": "index.html#multiple-columns",
     "title": "",
     "section": "Multiple Columns",
-    "text": "Multiple Columns\n\n\nMultiprocessing\n\nLikely need to think about memory\n\n\nMultithreading\n\nNeed to think about the Global Interpreter Lock (GIL)"
+    "text": "Multiple Columns\n\n\nMultiprocessing\n\nLikely need to think about memory\nLikely need to think about memory\nLikely need to think about memory\nLikely need to think about memory\nLikely need to think about memory\nLikely need to think about memory\n\n\n\nMultithreading\n\nNeed to think about the Global Interpreter Lock (GIL)"
   },
   {
     "objectID": "index.html#this-is-a-subsection-in-the-other-level",
@@ -84,10 +84,17 @@
     "text": "Fragments ordering\n\nAppears last\n\n\nAppears first\n\n\nAppears second"
   },
   {
-    "objectID": "index.html#fragments-columns",
-    "href": "index.html#fragments-columns",
+    "objectID": "index.html#columns",
+    "href": "index.html#columns",
     "title": "",
-    "section": "Fragments + Columns",
-    "text": "Fragments + Columns\n\n\nThis is a title\n\nHere is an item\n\n\n\nAnother title\n\nAnother item"
+    "section": "Columns",
+    "text": "Columns\n\n\nThis is a title\n\nHere is an item\n\n\nAnother title\n\nAnother item"
+  },
+  {
+    "objectID": "index.html#columns-long",
+    "href": "index.html#columns-long",
+    "title": "",
+    "section": "Columns Long",
+    "text": "Columns Long\n\n\nThis is a title\n\nHere is an item\nHere is an item\nHere is an item\nHere is an item\nHere is an item\nHere is an item\nHere is an item\nHere is an item\n\n\nAnother title\n\nAnother item"
   }
 ]
