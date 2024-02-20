@@ -136,3 +136,69 @@ $presentation-font-size-root: 52px;
 a:hover .fa-mastodon {
     filter: invert(19%) sepia(93%) saturate(3573%) hue-rotate(94deg) brightness(102%) contrast(106%);
 }
+
+div.columns {
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.g-start {
+    -ms-flex-pack: start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.g-center {
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.g-end {
+    -ms-flex-pack: end;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.g-top {
+    -ms-flex-align: start;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+
+.g-middle {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.g-bottom {
+    -ms-flex-align: end;
+    -webkit-box-align: end;
+    align-items: flex-end;
+}
+
+.g-around {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.g-between {
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
