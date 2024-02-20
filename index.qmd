@@ -4,14 +4,15 @@ author: "Thomas J. Fan"
 description: This is a short description of the presentation
 format:
   revealjs:
-    theme: [default, partials/custom_theme.scss]
+    theme: [default, partials/custom.scss]
     include-in-header: partials/heading-meta.html
     template-partials:
       - partials/title-slide.html  # this is empty so that the header slide is defined below
     show-slide-number: print
     html-math-method: plain  # change to katex if there is math
-    width: 1600
-    height: 900
+    width: 1920
+    height: 1080
+    auto-stretch: false
     menu: false
     chalkboard: false
     multiplex: false
@@ -20,27 +21,28 @@ format:
 ---
 
 ## My Awesome Presentation with a long title and a line skip {.header-slide}
-<hr></hr>
 
-::::: {.columns}
-:::: {.column width="80%"}
+:::: {.columns .text-align-center}
+::: {.column}
+![](images/favicon_org.png){width=50%}
+:::
+::: {.column}
+![](images/favicon_org.png){width=50%}
+:::
+::::
+
+:::: {.text-align-center .social-media}
 ::: {.author}
 Thomas J. Fan
 :::
+[@thomasjpfan](https://www.github.com/thomasjpfan){.author-link}
+
 [](https://www.github.com/thomasjpfan){.fa-brands .fa-github}
 [](https://www.twitter.com/thomasjpfan){.fa-brands .fa-twitter}
 [](https://www.linkedin.com/in/thomasjpfan/){.fa-brands .fa-linkedin}
-[@thomasjpfan](https://www.github.com/thomasjpfan){.social-media}
-
-[](https://fosstodon.org/@thomasjpfan){.fa-brands .fa-mastodon}
-[@thomasjpfan@fosstodon.org](https://fosstodon.org/@thomasjpfan){.social-media}
 
 [github.com/thomasjpfan/slides-template-quarto](https://www.github.com/thomasjpfan/slides-template-quarto){.talk-link}
 ::::
-:::: {.column width="20%"}
-![](images/favicon_org.png){width=300}
-::::
-:::::
 
 # In the morning ☀️
 
@@ -87,14 +89,19 @@ plt.show()
 
 ## Multiple Columns
 
-:::: {.columns}
+:::: {.g}
 
-::: {.column width="50%"}
+::: {.g-6}
 ### Multiprocessing
+- Likely need to think about memory
+- Likely need to think about memory
+- Likely need to think about memory
+- Likely need to think about memory
+- Likely need to think about memory
 - Likely need to think about memory
 :::
 
-::: {.column width="50%"}
+::: {.g-6}
 
 ### Multithreading
 - Need to think about the Global Interpreter Lock (**GIL**)
@@ -163,20 +170,38 @@ Appears second
 :::
 
 
-## Fragments + Columns
+## Columns
 
-::::: {.columns}
-
-:::: {.column width="50%"}
+:::: {.columns}
+::: {.column}
 ### This is a title
 - Here is an item
-::::
+:::
 
-:::: {.column width="50%" .fragment}
-
+::: {.column}
 ### Another title
 - Another item
-
+:::
 ::::
 
-:::::
+
+## Columns Long
+
+:::: {.columns}
+::: {.column}
+### This is a title
+- Here is an item
+- Here is an item
+- Here is an item
+- Here is an item
+- Here is an item
+- Here is an item
+- Here is an item
+- Here is an item
+:::
+
+::: {.column}
+### Another title
+- Another item
+:::
+::::
