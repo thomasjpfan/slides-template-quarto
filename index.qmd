@@ -20,7 +20,7 @@ format:
     highlight-style: arrow
 ---
 
-## My Awesome Presentation with a long title and a line skip {.header-slide}
+## This is a tile(.header)
 
 :::: {.columns .text-align-center}
 ::: {.column}
@@ -31,7 +31,7 @@ format:
 :::
 ::::
 
-:::: {.text-align-center .social-media}
+:::: {.social-media}
 ::: {.author}
 Thomas J. Fan
 :::

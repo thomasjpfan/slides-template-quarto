@@ -45,11 +45,16 @@ $presentation-font-size-root: 52px;
         background-color: $presentation-heading-color;
     }
 
-    .header-slide {
+    .header {
+
         h2 {
             text-align: center;
             font-size: 1.6em;
             margin-bottom: 0.25em;
+        }
+
+        p {
+            text-align: center;
         }
 
         .social-media {
@@ -61,8 +66,11 @@ $presentation-font-size-root: 52px;
                 }
             }
 
-            .fa-brands,
             .author-link {
+                color: $body-color;
+            }
+
+            .fa-brands {
                 color: $body-color;
 
                 &:hover {
@@ -73,6 +81,7 @@ $presentation-font-size-root: 52px;
 
             .talk-link {
                 font-style: italic;
+                line-height: 1.8em;
             }
         }
 
