@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html#my-awesome-presentation-with-a-long-title-and-a-line-skip",
-    "href": "index.html#my-awesome-presentation-with-a-long-title-and-a-line-skip",
+    "objectID": "index.html#this-is-a-tile.header",
+    "href": "index.html#this-is-a-tile.header",
     "title": "",
-    "section": "My Awesome Presentation with a long title and a line skip",
-    "text": "My Awesome Presentation with a long title and a line skip\n\n\n\n\n\n\n\n\n\nThomas J. Fan\n\n@thomasjpfan\n  \ngithub.com/thomasjpfan/slides-template-quarto"
+    "section": "This is a tile(.header)",
+    "text": "This is a tile(.header)\n\n\n\n\n\n\n\n\n\nThomas J. Fan\n\n@thomasjpfan\n  \ngithub.com/thomasjpfan/slides-template-quarto"
   },
   {
     "objectID": "index.html#this-is-a-list",
