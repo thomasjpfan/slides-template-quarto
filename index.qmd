@@ -87,28 +87,6 @@ ax.grid(True)
 plt.show()
 ```
 
-## Multiple Columns
-
-:::: {.g}
-
-::: {.g-6}
-### Multiprocessing
-- Likely need to think about memory
-- Likely need to think about memory
-- Likely need to think about memory
-- Likely need to think about memory
-- Likely need to think about memory
-- Likely need to think about memory
-:::
-
-::: {.g-6}
-
-### Multithreading
-- Need to think about the Global Interpreter Lock (**GIL**)
-:::
-
-::::
-
 # This is another high level
 
 ## This is a subsection in the other level
